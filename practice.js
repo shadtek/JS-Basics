@@ -64,7 +64,7 @@ welcome();
 
   //Answer Here
 //false, 0(zero), ""(empty string), null, undefined, NaN (not a number)
-// You can check if something is falsy using and if statement.
+// You can check if something is falsy using if(!putYourVarHere) {}
 
 
 //Next Problem
@@ -74,6 +74,7 @@ welcome();
 //Create a function called myName that returns your name
 
   //Code Here
+
   var name = 'Spencer'
   var myName = function() {
   	return name;
@@ -84,9 +85,11 @@ welcome();
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
+  var newMyName = myName();
 
 //Now alert the result of invoking newMyName
 
+alert(newMyName);
 
 
 //Next problem
