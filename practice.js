@@ -38,17 +38,22 @@ getName();
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
+var welcome = function() {
+	var name = getName();
+	alert("Welcome " + name)
+}
+
+welcome();
 
 
 //Next problem
 
 
 
-
 //What is the difference between arguments and parameters?
 
   //Answer Here
-
+//Parameters are what get passed into a function. Arguments are used in the function invocation to set what the parameters will be.
 
 //Next problem
 
@@ -58,7 +63,8 @@ getName();
 
 
   //Answer Here
-
+//false, 0(zero), ""(empty string), null, undefined, NaN (not a number)
+// You can check if something is falsy using and if statement.
 
 
 //Next Problem
@@ -68,6 +74,12 @@ getName();
 //Create a function called myName that returns your name
 
   //Code Here
+  var name = 'Spencer'
+  var myName = function() {
+  	return name;
+  }
+
+  myName();
 
 //Now save the function definition of myName into a new variable called newMyName
 
