@@ -23,7 +23,12 @@ isTyler(name);
 
 
   //Code Here
+var getName = function() {
+	var name = prompt("Your name please");
+	return name;
+}
 
+getName();
 
 //Next Problem
 
